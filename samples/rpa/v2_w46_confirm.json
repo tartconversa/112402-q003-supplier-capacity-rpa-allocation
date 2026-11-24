@@ -1,0 +1,15 @@
+{
+  "script_ref": "v2-portal-confirm",
+  "portal_url": "https://portal.example-v2.test/capacity/confirm",
+  "entries": [
+    {"reported_as": "cell-b", "report_kind": "process", "quantity": 24, "revision": 1}
+  ],
+  "steps": [
+    {"name": "打开产能确认页", "action": "open", "target": "/capacity/confirm", "expect": "capacity-form"},
+    {"name": "填写 cell-b 可供数量", "action": "fill", "target": "#qty-cell-b", "value": 24, "expect": "capacity-form"},
+    {"name": "填写回报版本", "action": "fill", "target": "#revision", "value": 1, "expect": "capacity-form"},
+    {"name": "截图留存", "action": "screenshot", "target": "form-before-submit", "expect": "capacity-form"},
+    {"name": "提交确认", "action": "submit", "target": "#submit", "expect": "submit-result", "is_submit": true},
+    {"name": "查询提交结果", "action": "query", "target": "/capacity/submission/status", "expect": "submission-status", "is_query": true}
+  ]
+}

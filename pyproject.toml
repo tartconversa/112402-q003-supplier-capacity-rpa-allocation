@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capflow"
+version = "1.0.0"
+description = "供应商产能回报采集、运营复核与订单分配（标准库实现）"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["capflow*"]

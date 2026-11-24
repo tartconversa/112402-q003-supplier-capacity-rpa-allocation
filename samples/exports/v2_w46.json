@@ -1,0 +1,8 @@
+{
+  "supplier": "V-2",
+  "window": "2026-W46",
+  "exported_at": "2026-11-03T08:00:00Z",
+  "entries": [
+    {"reported_as": "cell-b", "report_kind": "process", "quantity": 24, "revision": 1}
+  ]
+}
