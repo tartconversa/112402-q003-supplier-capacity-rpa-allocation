@@ -1,0 +1,4 @@
+order_id,product,week,quantity,due,state
+O1,model-x,2026-W45,70,2026-11-06,confirmed
+O2,model-y,2026-W45,45,2026-11-07,planned
+O3,model-z,2026-W46,20,2026-11-13,planned

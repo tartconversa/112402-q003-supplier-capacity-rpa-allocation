@@ -1,0 +1,4 @@
+product,resource,units_per_lot,valid_from
+model-x,cell-a,1,2026-01-01
+model-y,cell-a,1,2026-01-01
+model-z,cell-b,1,2026-01-01

@@ -1,0 +1,4 @@
+record,supplier,resource,week,quantity,revision
+C1,V-1,cell-a,2026-W45,120,1
+C2,V-1,cell-a,2026-W45,50,2
+C3,V-2,cell-b,2026-W46,24,1
